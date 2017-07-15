@@ -1,0 +1,13 @@
+No se logró completar el despliegue correcto a Google Cloud App Engine debido a un error en la importación de la librería apiclient.discovery.
+
+Al utilizar dicha librería en el entono local, se presentó el error "ImportError: No module named apiclient.discovery". Dicho error se resuelve localmente instalando la librería en el directorio C:\Python27\Lib mediante el comando: pip install --upgrade google-api-python-client.
+
+Los archivos fuente de la palicación se desplegaron al App Engine utilizando la línea de comandos de gcloud: gcloud app deploy app.yaml
+Para utilizar la herramienta de esta forma, el comand debe utilizarse estando la consola "local" en el directorio que contiene los fuentes de la aplicación.
+La herramienta gcloud reporta una instalación correcta de la aplicación e indica el comando a utilizar para acceder mediante el navegador a la aplicación publicada.
+
+No obstante, al acceder a la página se reporta un error del servidor (Código 500). Al revisar mediante la consola se encontró la ocurrencia del error inicialmente mencionado.
+
+Se verificó la presencia de la libería en el servidor App Engine, adicionalmente se intentó el comando de instalación de la librería (sudo pip install --upgrade google-api-python-client), a lo cual la herramienta de instalación responde que los requsitos ya se encuentran actualizados.
+
+Se intentó también un desplieque utilizando "Vendoring", que consiste en copiar los fuentes de la librería en el mismo directorio de la aplicación y colocar las directivas correspondientes en un archivo appengine_config.py. El resultado de dicho intento no resolvió el error inicial y produjo errores adicionales.
