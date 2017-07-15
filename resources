@@ -1,0 +1,30 @@
+Lista de recursos consultados para la asignación.
+
+Documentación Python
+- https://docs.python.org/3.6/index.html
+- https://docs.python.org/3.6/tutorial/index.html
+
+Documentación AngularJS
+- https://www.w3schools.com/angular/default.asp
+- https://angularjs.org/
+
+Documentación YouTube
+- https://developers.google.com/youtube/v3/docs/search/list#response
+- https://developers.google.com/youtube/v3/docs/videos/list
+- https://developers.google.com/youtube/v3/docs/channels/list
+
+Documentación Google App Engine / Python
+- https://cloud.google.com/appengine/docs/flexible/python/runtime
+- https://cloud.google.com/sdk/docs/
+- https://cloud.google.com/appengine/docs/python/
+
+Documentación Webapp2
+- http://webapp2.readthedocs.io/en/latest/api/webapp2_extras/json.html
+- http://webapp2.readthedocs.io/en/latest/tutorials/gettingstarted/introduction.html
+- http://webapp2.readthedocs.io/en/latest/tutorials/gettingstarted/helloworld.html
+
+Solución de errores (Sólo se lista algunos)
+- https://stackoverflow.com/questions/18267749/importerror-no-module-named-apiclient-discovery
+- https://stackoverflow.com/questions/37107986/no-module-named-apiclient-discovery
+- https://stackoverflow.com/questions/35982655/python-install-module-apiclient?noredirect=1&lq=1
+- https://stackoverflow.com/questions/14850853/how-to-include-third-party-python-libraries-in-google-app-engine?noredirect=1&lq=1
